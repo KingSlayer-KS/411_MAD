@@ -21,13 +21,15 @@
 
     <EditText
         android:id="@+id/blank"
-        android:layout_width="wrap_content"
+        android:layout_width="188dp"
         android:layout_height="wrap_content"
-        android:minHeight="48dp"
-        android:inputType="text"
         android:ems="5"
+        android:hint="Enter Your Name"
+        android:importantForAutofill="no"
+        android:inputType="text"
 
-        android:importantForAutofill="no" />
+
+        android:minHeight="48dp" />
 
     <Button
         android:id="@+id/button"
